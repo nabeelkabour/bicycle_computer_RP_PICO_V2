@@ -2,6 +2,7 @@
 
 #include <Menu.h>
 #include <stdint.h>
+#include <Arduino.h>
 
 namespace Menu
 {
