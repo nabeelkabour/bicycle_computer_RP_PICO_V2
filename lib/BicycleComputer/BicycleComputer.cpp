@@ -64,6 +64,10 @@ void Menu::Element::SpeedMeter::measureSpeed()
     }   
 }
 
+void Menu::Element::SpeedMeter::action() {}
+void Menu::Element::SpeedMeter::draw() {}
+
+
 void Menu::Element::SpeedMeter::displaySpeed()
 {
     mainDisplay.display->fillRect(int16_t(x), int16_t(y), 70, 24, 0);
